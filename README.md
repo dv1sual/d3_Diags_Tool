@@ -1,5 +1,11 @@
 # d3_Diags_Tool
+
  A d3 Tool for Project Diagnostics.
+ 
+ All the script works out of the main.py - the rest are all the functions used in it.
+ At the present moment, you need to manually change all your directories in order to get it work.
+ 
+ Soon there will be the how-to guide.
 
 01_file_list.py [function]
 
