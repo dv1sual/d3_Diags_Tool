@@ -110,7 +110,6 @@ def splitter(clean_list):
     # return the lists
     return new_x_list
 
-
 # APPLICATION
 
 # TODO: PROMPT THE USER FOR THIS
