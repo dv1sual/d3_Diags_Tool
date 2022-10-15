@@ -16,67 +16,68 @@ import file_list
 
 #* lists all files in a given diag
 
-def get_all_files_in_filelist(diag_path):
+def get_files_in_filelist(diag_path):
     """Read and print all the files name in the filelist.txt file"""
-    # make the path to filelist.txt in the path
-    filelist_path = os.path.join(diag_path, "filelist.txt")
-    # check the file exists
-    if os.path.isfile(filelist_path):
-        # open filelist.txt
+    #* make the path to filelist.txt in the path
+    filelist_path = os.path.join(diag_path, "filelist.txt") 
+    #* check the file exists
+    if os.path.isfile(filelist_path): 
+        #* open filelist.txt
         with open(filelist_path, 'rb') as file_in:
-            # read all lines
+            #* read all lines 
             in_lines = file_in.readlines()
-            # return all the lines
-            return in_lines
+            #* return all the lines
+            return in_lines 
     else:
         print("not found")
         return []
 
-def filter_videofiles_from_filelist(all_files_list):
-    # make an empty list to hold the video files i found
+def get_videofiles(all_files_list):
+    """Read and get all the files name from VideoFiles folder from the list"""
+    #* make an empty list to hold the video files i found
     videofile_list = []
-    # go through all the files looking for video files
+    #* go through all the files looking for video files
     for file in all_files_list:
-        # is this a video file?
+        #* is this a video file?
         if b'Object\\VideoFile' in file:
-            # yes! add it to the list
+            #* yes! add it to the list
             videofile_list.append(file)
-    # now we checked all files, return the list of found video files
+    #* now we checked all files, return the list of found video files
     return videofile_list
 
-
-def filter_mov_from_videofiles_list(all_files_list):
-    # make an empty list to hold the mov files i found
+def get_mov_from_videofiles(all_files_list):
+    """Read and get mov files from the file list, putting them in a list"""
+    #* make an empty list to hold the mov files i found
     mov_list = []
-    # go through all the files looking for mov files
+    #* go through all the files looking for mov files
     for file in all_files_list:
-        # is this a mov file?
+        #* is this a mov file?
         if b'.mov' in file:
-            # yes! add it to the list
+            #* yes! add it to the list
             mov_list.append(file)
-    # now we checked all files, return the list of found video files
+    #* now we checked all files, return the list of found video files
     return mov_list
 
 
 def clean_mov(mov_list):
-    # make an list of the mov files cleaned
+    """Cleans the mov files names from useless text and characters"""
+    #* make a list of the mov files cleaned
     clean_list = []
-    # go through all the lines in mov_list
+    #* go through all the lines in mov_list
     for file in mov_list:
-        # it starts with internal?
+        #* it starts with internal?
         if b'internal' not in file:
-            # decode from bytes to string using a variable called field
+            #* decode from bytes to string using a variable called field
             field = file.decode()
-            # replace the objects\\videofile\\ from the line with an empty char
+            #* replace the objects\\videofile\\ from the line with an empty char
             field = field.replace("objects\\VideoFile\\", "")
-            # remove whatever is after the final \
+            #* remove whatever is after the final \
             field = field.replace(field.split("\t")[-1], "")
             field = field.replace("\t", "")
-            # add the result to the list
+            #* add the result to the list
             clean_list.append(field)
-    # return the list
+    #* return the list
     return clean_list
-
 
 def splitter(clean_list):
     # make a list for every piece of the path
@@ -112,27 +113,24 @@ def splitter(clean_list):
 
 # APPLICATION
 
-# TODO: PROMPT THE USER FOR THIS
-
-# get the path to the diag we care about
+#* get the path to the diag we care about
 root = tk.Tk()
 root.withdraw()
 diag_path = filedialog.askdirectory()
-#diag_path = "C:\\Users\\luca.manzoni\\Downloads\\00_incoming_shit\\diag_al_wasl_2021-04-29_21-07-55\\d3 Projects\\al_wasl"
 
-# get all the files in this diag
-all_files_list = get_all_files_in_filelist(diag_path)
+#* get all the files in this diag
+all_files_list = get_files_in_filelist(diag_path)
 
-# get only the video files in the file list
-videofile_list = filter_videofiles_from_filelist(all_files_list)
+#* get only the video files in the file list
+videofile_list = get_videofiles(all_files_list)
 
-# now get only the mov videofiles
-mov_list = filter_mov_from_videofiles_list(all_files_list)
+#* now get only the mov videofiles
+mov_list = get_mov_from_videofiles(all_files_list)
 
-# clean the file from the rubbish
+#* clean the file from the rubbish
 clean_list = clean_mov(mov_list)
 
-# create the lists of the folders/subfolders/files
+#* create the lists of the folders/subfolders/files
 new_x_list = splitter(clean_list)
 z = splitter(clean_list)
 

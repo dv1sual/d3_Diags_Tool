@@ -1,0 +1,684 @@
+Filename	size (bytes)
+calibration	DIR
+history	DIR
+internal	DIR
+objects	DIR
+output	DIR
+drive-download-20220523T164503Z-001.zip	6966108
+dsof-19883_212.d3	422680
+filelist.txt	0
+start.d3	307148
+calibration\cameras	DIR
+history\start_history293__14_jul_2022_15h46m25s325ms.d3	348968
+history\start_history294__14_jul_2022_15h46m43s637ms.d3	368772
+history\start_history295__14_jul_2022_15h47m01s545ms.d3	313312
+history\start_history296__14_jul_2022_15h47m49s442ms.d3	347964
+history\start_history297__12_oct_2022_14h21m38s000ms.d3	203888
+history\start_history298__12_oct_2022_15h59m48s031ms.d3	208716
+history\start_history299__13_oct_2022_10h09m08s860ms.d3	466528
+history\start_history300__13_oct_2022_10h09m45s001ms.d3	486332
+history\start_history301__13_oct_2022_10h09m47s041ms.d3	487680
+history\start_history302__13_oct_2022_13h08m25s740ms.d3	309152
+history\start_history303__13_oct_2022_13h13m25s746ms.d3	328956
+history\start_history304__13_oct_2022_13h18m25s762ms.d3	328956
+history\start_history305__13_oct_2022_13h23m25s776ms.d3	328956
+history\start_history306__13_oct_2022_13h25m37s890ms.d3	328956
+history\start_history307__13_oct_2022_13h25m40s121ms.d3	328956
+history\start_history308__13_oct_2022_13h26m49s188ms.d3	307148
+history\start_history309__13_oct_2022_13h28m24s909ms.d3	307148
+internal\chromium_cache	DIR
+internal\dlls	DIR
+internal\lutfile	DIR
+internal\options	DIR
+internal\proxies	DIR
+internal\shadercache	DIR
+internal\thumbnails	DIR
+internal\chromium_cache\Cache	DIR
+internal\chromium_cache\Code Cache	DIR
+internal\chromium_cache\databases	DIR
+internal\chromium_cache\IndexedDB	DIR
+internal\chromium_cache\Local Storage	DIR
+internal\chromium_cache\Network	DIR
+internal\chromium_cache\Platform Notifications	DIR
+internal\chromium_cache\Service Worker	DIR
+internal\chromium_cache\Session Storage	DIR
+internal\chromium_cache\shared_proto_db	DIR
+internal\chromium_cache\VideoDecodeStats	DIR
+internal\chromium_cache\000003.log	0
+internal\chromium_cache\CURRENT	16
+internal\chromium_cache\LocalPrefs.json	731
+internal\chromium_cache\LOCK	0
+internal\chromium_cache\LOG	253
+internal\chromium_cache\LOG.old	256
+internal\chromium_cache\MANIFEST-000001	41
+internal\chromium_cache\QuotaManager	40960
+internal\chromium_cache\QuotaManager-journal	0
+internal\chromium_cache\Visited Links	131072
+internal\chromium_cache\Cache\Cache_Data	DIR
+internal\chromium_cache\Cache\Cache_Data\data_0	45056
+internal\chromium_cache\Cache\Cache_Data\data_1	270336
+internal\chromium_cache\Cache\Cache_Data\data_2	1056768
+internal\chromium_cache\Cache\Cache_Data\data_3	8396800
+internal\chromium_cache\Cache\Cache_Data\f_000001	296391
+internal\chromium_cache\Cache\Cache_Data\f_000002	128744
+internal\chromium_cache\Cache\Cache_Data\f_000003	103208
+internal\chromium_cache\Cache\Cache_Data\f_000004	22495
+internal\chromium_cache\Cache\Cache_Data\f_000005	94832
+internal\chromium_cache\Cache\Cache_Data\f_000006	81779
+internal\chromium_cache\Cache\Cache_Data\f_000007	140796
+internal\chromium_cache\Cache\Cache_Data\f_000008	51670
+internal\chromium_cache\Cache\Cache_Data\f_000009	21635
+internal\chromium_cache\Cache\Cache_Data\f_00000a	70150
+internal\chromium_cache\Cache\Cache_Data\f_00000b	20006
+internal\chromium_cache\Cache\Cache_Data\f_00000c	51508
+internal\chromium_cache\Cache\Cache_Data\f_00000d	26310
+internal\chromium_cache\Cache\Cache_Data\f_00000e	27610
+internal\chromium_cache\Cache\Cache_Data\f_00000f	38692
+internal\chromium_cache\Cache\Cache_Data\f_000010	64382
+internal\chromium_cache\Cache\Cache_Data\f_000011	66656
+internal\chromium_cache\Cache\Cache_Data\f_000012	63712
+internal\chromium_cache\Cache\Cache_Data\f_000013	25020
+internal\chromium_cache\Cache\Cache_Data\f_000014	39508
+internal\chromium_cache\Cache\Cache_Data\f_000015	29670
+internal\chromium_cache\Cache\Cache_Data\f_000016	16694
+internal\chromium_cache\Cache\Cache_Data\f_000017	88800
+internal\chromium_cache\Cache\Cache_Data\f_000018	19595
+internal\chromium_cache\Cache\Cache_Data\f_000019	73321
+internal\chromium_cache\Cache\Cache_Data\f_00001a	18293
+internal\chromium_cache\Cache\Cache_Data\f_00001b	92674
+internal\chromium_cache\Cache\Cache_Data\f_00001c	19317
+internal\chromium_cache\Cache\Cache_Data\f_00001d	33781
+internal\chromium_cache\Cache\Cache_Data\f_00001e	21664
+internal\chromium_cache\Cache\Cache_Data\f_00001f	19909
+internal\chromium_cache\Cache\Cache_Data\f_000020	24125
+internal\chromium_cache\Cache\Cache_Data\f_000021	55755
+internal\chromium_cache\Cache\Cache_Data\f_000022	24996
+internal\chromium_cache\Cache\Cache_Data\f_000023	44800
+internal\chromium_cache\Cache\Cache_Data\f_000024	27310
+internal\chromium_cache\Cache\Cache_Data\f_000025	38484
+internal\chromium_cache\Cache\Cache_Data\f_000026	90098
+internal\chromium_cache\Cache\Cache_Data\f_000027	17962
+internal\chromium_cache\Cache\Cache_Data\f_000028	36594
+internal\chromium_cache\Cache\Cache_Data\f_000029	38462
+internal\chromium_cache\Cache\Cache_Data\f_00002a	71778
+internal\chromium_cache\Cache\Cache_Data\f_00002b	22175
+internal\chromium_cache\Cache\Cache_Data\f_00002c	101026
+internal\chromium_cache\Cache\Cache_Data\f_00002d	115552
+internal\chromium_cache\Cache\Cache_Data\f_00002e	82889
+internal\chromium_cache\Cache\Cache_Data\f_00002f	20784
+internal\chromium_cache\Cache\Cache_Data\f_000030	201644
+internal\chromium_cache\Cache\Cache_Data\f_000031	32727
+internal\chromium_cache\Cache\Cache_Data\f_000032	48826
+internal\chromium_cache\Cache\Cache_Data\f_000033	121231
+internal\chromium_cache\Cache\Cache_Data\f_000034	194027
+internal\chromium_cache\Cache\Cache_Data\f_000035	389817
+internal\chromium_cache\Cache\Cache_Data\f_000036	647128
+internal\chromium_cache\Cache\Cache_Data\f_000037	1065282
+internal\chromium_cache\Cache\Cache_Data\f_000038	21719
+internal\chromium_cache\Cache\Cache_Data\f_000039	1371497
+internal\chromium_cache\Cache\Cache_Data\f_00003a	47551
+internal\chromium_cache\Cache\Cache_Data\f_00003b	35074
+internal\chromium_cache\Cache\Cache_Data\f_00003c	21132
+internal\chromium_cache\Cache\Cache_Data\f_00003d	37332
+internal\chromium_cache\Cache\Cache_Data\f_00003e	39510
+internal\chromium_cache\Cache\Cache_Data\f_00003f	48064
+internal\chromium_cache\Cache\Cache_Data\f_000040	44394
+internal\chromium_cache\Cache\Cache_Data\f_000041	56704
+internal\chromium_cache\Cache\Cache_Data\f_000042	77196
+internal\chromium_cache\Cache\Cache_Data\f_000043	24952
+internal\chromium_cache\Cache\Cache_Data\f_000044	47270
+internal\chromium_cache\Cache\Cache_Data\f_000045	540953
+internal\chromium_cache\Cache\Cache_Data\f_000046	21360
+internal\chromium_cache\Cache\Cache_Data\f_000047	37654
+internal\chromium_cache\Cache\Cache_Data\f_000048	22017
+internal\chromium_cache\Cache\Cache_Data\f_000049	21132
+internal\chromium_cache\Cache\Cache_Data\f_00004a	41656
+internal\chromium_cache\Cache\Cache_Data\f_00004b	40473
+internal\chromium_cache\Cache\Cache_Data\f_00004c	21548
+internal\chromium_cache\Cache\Cache_Data\f_00004d	49248
+internal\chromium_cache\Cache\Cache_Data\f_00004e	79133
+internal\chromium_cache\Cache\Cache_Data\f_00004f	24623
+internal\chromium_cache\Cache\Cache_Data\f_000050	66122
+internal\chromium_cache\Cache\Cache_Data\f_000051	101231
+internal\chromium_cache\Cache\Cache_Data\f_000052	78795
+internal\chromium_cache\Cache\Cache_Data\f_000053	65836
+internal\chromium_cache\Cache\Cache_Data\f_000054	89897
+internal\chromium_cache\Cache\Cache_Data\f_000055	65662
+internal\chromium_cache\Cache\Cache_Data\f_000056	23424
+internal\chromium_cache\Cache\Cache_Data\f_000057	160636
+internal\chromium_cache\Cache\Cache_Data\f_000058	25348
+internal\chromium_cache\Cache\Cache_Data\f_000059	30055
+internal\chromium_cache\Cache\Cache_Data\f_00005a	21112
+internal\chromium_cache\Cache\Cache_Data\f_00005b	74991
+internal\chromium_cache\Cache\Cache_Data\f_00005c	135838
+internal\chromium_cache\Cache\Cache_Data\f_00005d	19800
+internal\chromium_cache\Cache\Cache_Data\f_00005e	23726
+internal\chromium_cache\Cache\Cache_Data\f_00005f	25920
+internal\chromium_cache\Cache\Cache_Data\f_000060	26466
+internal\chromium_cache\Cache\Cache_Data\f_000061	21024
+internal\chromium_cache\Cache\Cache_Data\f_000062	29316
+internal\chromium_cache\Cache\Cache_Data\f_000063	46558
+internal\chromium_cache\Cache\Cache_Data\f_000064	66316
+internal\chromium_cache\Cache\Cache_Data\f_000065	65836
+internal\chromium_cache\Cache\Cache_Data\f_000066	60779
+internal\chromium_cache\Cache\Cache_Data\f_000067	58795
+internal\chromium_cache\Cache\Cache_Data\f_000068	143696
+internal\chromium_cache\Cache\Cache_Data\f_000069	86561
+internal\chromium_cache\Cache\Cache_Data\f_00006a	49169
+internal\chromium_cache\Cache\Cache_Data\f_00006b	20098
+internal\chromium_cache\Cache\Cache_Data\f_00006c	30328
+internal\chromium_cache\Cache\Cache_Data\f_00006d	101880
+internal\chromium_cache\Cache\Cache_Data\f_00006e	18664
+internal\chromium_cache\Cache\Cache_Data\f_00006f	206098
+internal\chromium_cache\Cache\Cache_Data\f_000070	47858
+internal\chromium_cache\Cache\Cache_Data\f_000071	29688
+internal\chromium_cache\Cache\Cache_Data\f_000072	49322
+internal\chromium_cache\Cache\Cache_Data\f_000073	67014
+internal\chromium_cache\Cache\Cache_Data\f_000074	27996
+internal\chromium_cache\Cache\Cache_Data\f_000075	41090
+internal\chromium_cache\Cache\Cache_Data\f_000076	42198
+internal\chromium_cache\Cache\Cache_Data\f_000077	26496
+internal\chromium_cache\Cache\Cache_Data\f_000078	65869
+internal\chromium_cache\Cache\Cache_Data\f_000079	66328
+internal\chromium_cache\Cache\Cache_Data\f_00007a	65917
+internal\chromium_cache\Cache\Cache_Data\f_00007b	107251
+internal\chromium_cache\Cache\Cache_Data\f_00007c	65536
+internal\chromium_cache\Cache\Cache_Data\f_00007d	183514
+internal\chromium_cache\Cache\Cache_Data\f_00007e	135554
+internal\chromium_cache\Cache\Cache_Data\f_00007f	107323
+internal\chromium_cache\Cache\Cache_Data\f_000080	383180
+internal\chromium_cache\Cache\Cache_Data\f_000081	230446
+internal\chromium_cache\Cache\Cache_Data\f_000082	701606
+internal\chromium_cache\Cache\Cache_Data\f_000083	81786
+internal\chromium_cache\Cache\Cache_Data\f_000084	26054
+internal\chromium_cache\Cache\Cache_Data\f_000085	32308
+internal\chromium_cache\Cache\Cache_Data\f_000086	34758
+internal\chromium_cache\Cache\Cache_Data\f_000087	62520
+internal\chromium_cache\Cache\Cache_Data\f_000088	26198
+internal\chromium_cache\Cache\Cache_Data\f_000089	17238
+internal\chromium_cache\Cache\Cache_Data\f_00008a	41364
+internal\chromium_cache\Cache\Cache_Data\f_00008b	18872
+internal\chromium_cache\Cache\Cache_Data\f_00008c	22066
+internal\chromium_cache\Cache\Cache_Data\f_00008d	18342
+internal\chromium_cache\Cache\Cache_Data\f_00008e	119635
+internal\chromium_cache\Cache\Cache_Data\index	524656
+internal\chromium_cache\Code Cache\js	DIR
+internal\chromium_cache\Code Cache\wasm	DIR
+internal\chromium_cache\Code Cache\js\index-dir	DIR
+internal\chromium_cache\Code Cache\js\023d0ca65c494883_0	1099200
+internal\chromium_cache\Code Cache\js\02d0e2252a3f1b20_0	6610
+internal\chromium_cache\Code Cache\js\05809ddf135560ea_0	311144
+internal\chromium_cache\Code Cache\js\05debe5da08df113_0	2338
+internal\chromium_cache\Code Cache\js\088a095f41b8e4ee_0	262
+internal\chromium_cache\Code Cache\js\08ca9c2947e246ba_0	197
+internal\chromium_cache\Code Cache\js\0983ea770b1fab0e_0	932
+internal\chromium_cache\Code Cache\js\0aaf4d31583aea05_0	252
+internal\chromium_cache\Code Cache\js\0cdab518e2756ac7_0	73752
+internal\chromium_cache\Code Cache\js\13f8745013250384_0	17576
+internal\chromium_cache\Code Cache\js\1469ee04532628f4_0	199
+internal\chromium_cache\Code Cache\js\179bc97f50168fef_0	6102
+internal\chromium_cache\Code Cache\js\1b85bb0abf8200a7_0	263
+internal\chromium_cache\Code Cache\js\1e4a860b402066bd_0	289
+internal\chromium_cache\Code Cache\js\1f5393829673deea_0	41264
+internal\chromium_cache\Code Cache\js\1fda874720b1c13d_0	7350
+internal\chromium_cache\Code Cache\js\2135f34e3c1f2ae8_0	28368
+internal\chromium_cache\Code Cache\js\22dd68f0504bb031_0	4756
+internal\chromium_cache\Code Cache\js\24447c1728693b83_0	501
+internal\chromium_cache\Code Cache\js\2628a119dcbd2994_0	6885
+internal\chromium_cache\Code Cache\js\27d5e9c6ac570138_0	303
+internal\chromium_cache\Code Cache\js\283db4bd8c641c0e_0	9230
+internal\chromium_cache\Code Cache\js\29b91e00520a936b_0	264
+internal\chromium_cache\Code Cache\js\2a93c7ee5f067b95_0	282
+internal\chromium_cache\Code Cache\js\2bb25a75228a5766_0	37576
+internal\chromium_cache\Code Cache\js\2c8121cf699af3fa_0	261
+internal\chromium_cache\Code Cache\js\2cb8e1dce3c9ba8e_0	38736
+internal\chromium_cache\Code Cache\js\2d974c905e33b5e8_0	283
+internal\chromium_cache\Code Cache\js\2e99ffd3f2cb4e59_0	3731
+internal\chromium_cache\Code Cache\js\313c20e3037d8762_0	39024
+internal\chromium_cache\Code Cache\js\318b51df812a4cc6_0	57976
+internal\chromium_cache\Code Cache\js\335e69ddec2b9ac6_0	7260
+internal\chromium_cache\Code Cache\js\338e9f4c3c417745_0	286
+internal\chromium_cache\Code Cache\js\34605ecb8762235f_0	218
+internal\chromium_cache\Code Cache\js\36e1ce392f1325e1_0	255
+internal\chromium_cache\Code Cache\js\3725cec02bc35d9b_0	28360
+internal\chromium_cache\Code Cache\js\387ee3ad4dabd1e2_0	284240
+internal\chromium_cache\Code Cache\js\3b8afdd27248a829_0	1569
+internal\chromium_cache\Code Cache\js\3c85031e1c3228ae_0	6514
+internal\chromium_cache\Code Cache\js\3ec5b248e5906432_0	278
+internal\chromium_cache\Code Cache\js\448a9ee199a17228_0	61680
+internal\chromium_cache\Code Cache\js\4546140d380ac91a_0	8888
+internal\chromium_cache\Code Cache\js\458bdfac7b82a858_0	255128
+internal\chromium_cache\Code Cache\js\45b60c09996d1302_0	298
+internal\chromium_cache\Code Cache\js\4748cdc5aa400e07_0	2542
+internal\chromium_cache\Code Cache\js\47feb8d526e82214_0	69192
+internal\chromium_cache\Code Cache\js\48807d022f908ac4_0	81328
+internal\chromium_cache\Code Cache\js\4b3deefda7ef0709_0	291
+internal\chromium_cache\Code Cache\js\4cfaa9796da61300_0	2278
+internal\chromium_cache\Code Cache\js\4ef40f6ada5b1f29_0	39368
+internal\chromium_cache\Code Cache\js\5027294798afd686_0	8893
+internal\chromium_cache\Code Cache\js\520b4c86f3482db5_0	2342
+internal\chromium_cache\Code Cache\js\55fa218ef1ee7263_0	257
+internal\chromium_cache\Code Cache\js\5815602b9fc47a9b_0	277
+internal\chromium_cache\Code Cache\js\594be7e0d9409130_0	31304
+internal\chromium_cache\Code Cache\js\5aa2acc61f3bc933_0	284
+internal\chromium_cache\Code Cache\js\5b5fe6e4a33de8eb_0	256
+internal\chromium_cache\Code Cache\js\5bc31e8f910b74f6_0	4950
+internal\chromium_cache\Code Cache\js\5ed57d1ea333b005_0	8590
+internal\chromium_cache\Code Cache\js\66efa1d1788b943b_0	197488
+internal\chromium_cache\Code Cache\js\6737dfe325be4c84_0	198
+internal\chromium_cache\Code Cache\js\6794f6e0f3da9e99_0	8518
+internal\chromium_cache\Code Cache\js\6874c43d744e631d_0	63232
+internal\chromium_cache\Code Cache\js\68fa890a9a341c27_0	718
+internal\chromium_cache\Code Cache\js\6b41c1e93927faee_0	282
+internal\chromium_cache\Code Cache\js\6ed149e44a031883_0	2190
+internal\chromium_cache\Code Cache\js\75a0643bd11d6707_0	4710
+internal\chromium_cache\Code Cache\js\75a71f339447f07a_0	283040
+internal\chromium_cache\Code Cache\js\778310fa431b4ef6_0	9333808
+internal\chromium_cache\Code Cache\js\7bbcc404003bd3cc_0	291
+internal\chromium_cache\Code Cache\js\7be8776fbb075121_0	542
+internal\chromium_cache\Code Cache\js\7d1aa1f1437e106c_0	10109
+internal\chromium_cache\Code Cache\js\8033b8975300fd4c_0	253
+internal\chromium_cache\Code Cache\js\8090380da45b524a_0	376
+internal\chromium_cache\Code Cache\js\83a31191055502bd_0	283
+internal\chromium_cache\Code Cache\js\84344dad9f13f1d0_0	5542
+internal\chromium_cache\Code Cache\js\859316776b70aa34_0	285
+internal\chromium_cache\Code Cache\js\85a8ed829f94e8e8_0	2398
+internal\chromium_cache\Code Cache\js\8e17ad7b84c7361a_0	459
+internal\chromium_cache\Code Cache\js\8f23428d058c919e_0	522
+internal\chromium_cache\Code Cache\js\9397ffb603a1b4bd_0	8814
+internal\chromium_cache\Code Cache\js\9405fd2f5f2181bf_0	29512
+internal\chromium_cache\Code Cache\js\968ae224a685ec18_0	272
+internal\chromium_cache\Code Cache\js\9752521ffc16e242_0	13910
+internal\chromium_cache\Code Cache\js\9ad1577886163976_0	614
+internal\chromium_cache\Code Cache\js\9b10123a6dac7621_0	281
+internal\chromium_cache\Code Cache\js\9d29f05a78ea5033_0	261
+internal\chromium_cache\Code Cache\js\9f34d5ce4ec1df09_0	213
+internal\chromium_cache\Code Cache\js\a12d4b72511ae02a_0	242
+internal\chromium_cache\Code Cache\js\a2794f146ddf8684_0	261
+internal\chromium_cache\Code Cache\js\a6393cc2ef27665e_0	54712
+internal\chromium_cache\Code Cache\js\aa280d2fdf841619_0	5126
+internal\chromium_cache\Code Cache\js\b1f8909fd6764cce_0	116456
+internal\chromium_cache\Code Cache\js\b2023c67c996f94a_0	376
+internal\chromium_cache\Code Cache\js\b2fbcba0f25345f9_0	11649
+internal\chromium_cache\Code Cache\js\b48f235d4961834e_0	262
+internal\chromium_cache\Code Cache\js\b799fc924a5995d0_0	27456
+internal\chromium_cache\Code Cache\js\b7d6aeebfe84ac28_0	277
+internal\chromium_cache\Code Cache\js\be0686728562a627_0	261
+internal\chromium_cache\Code Cache\js\c09bc4a401df556c_0	288
+internal\chromium_cache\Code Cache\js\c2a6d05d46346ff7_0	4358
+internal\chromium_cache\Code Cache\js\c49e5e1ba81a5aca_0	157376
+internal\chromium_cache\Code Cache\js\c85937ba5a43bf84_0	11094
+internal\chromium_cache\Code Cache\js\c87599c159627871_0	8414
+internal\chromium_cache\Code Cache\js\cba48e6402f88eb4_0	211
+internal\chromium_cache\Code Cache\js\cfa0e989b4d68f9f_0	173736
+internal\chromium_cache\Code Cache\js\d0103f246ff3d3e1_0	8826
+internal\chromium_cache\Code Cache\js\d3c4cebaa8122fbd_0	280
+internal\chromium_cache\Code Cache\js\e3b2abc83b539a39_0	88712
+internal\chromium_cache\Code Cache\js\e40eef36dfe18504_0	37648
+internal\chromium_cache\Code Cache\js\e50b79c8cf15ae60_0	2406
+internal\chromium_cache\Code Cache\js\e8113891175d1809_0	261
+internal\chromium_cache\Code Cache\js\eba6ef44bd287adb_0	7838
+internal\chromium_cache\Code Cache\js\ee17127b7ae08be6_0	41968
+internal\chromium_cache\Code Cache\js\f2e1bca034c4c14d_0	114944
+internal\chromium_cache\Code Cache\js\f6a1afeb7084a2e4_0	281
+internal\chromium_cache\Code Cache\js\f6d30227248973ff_0	201
+internal\chromium_cache\Code Cache\js\ff4295bb1ad2d20a_0	31296
+internal\chromium_cache\Code Cache\js\index	24
+internal\chromium_cache\Code Cache\js\index-dir\the-real-index	2880
+internal\chromium_cache\Code Cache\wasm\index-dir	DIR
+internal\chromium_cache\Code Cache\wasm\index	24
+internal\chromium_cache\Code Cache\wasm\index-dir\the-real-index	48
+internal\chromium_cache\databases\Databases.db	28672
+internal\chromium_cache\databases\Databases.db-journal	0
+internal\chromium_cache\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb	DIR
+internal\chromium_cache\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb\000012.log	1925492
+internal\chromium_cache\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb\000014.ldb	13111
+internal\chromium_cache\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb\CURRENT	16
+internal\chromium_cache\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb\LOCK	0
+internal\chromium_cache\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb\LOG	408
+internal\chromium_cache\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb\LOG.old	4142
+internal\chromium_cache\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb\MANIFEST-000001	768
+internal\chromium_cache\Local Storage\leveldb	DIR
+internal\chromium_cache\Local Storage\leveldb\000003.log	4948
+internal\chromium_cache\Local Storage\leveldb\CURRENT	16
+internal\chromium_cache\Local Storage\leveldb\LOCK	0
+internal\chromium_cache\Local Storage\leveldb\LOG	300
+internal\chromium_cache\Local Storage\leveldb\LOG.old	257
+internal\chromium_cache\Local Storage\leveldb\MANIFEST-000001	41
+internal\chromium_cache\Network\Cookies	36864
+internal\chromium_cache\Network\Cookies-journal	0
+internal\chromium_cache\Network\Network Persistent State	12252
+internal\chromium_cache\Network\NetworkDataMigrated	0
+internal\chromium_cache\Network\Reporting and NEL	36864
+internal\chromium_cache\Network\Reporting and NEL-journal	0
+internal\chromium_cache\Network\TransportSecurity	3711
+internal\chromium_cache\Platform Notifications\000003.log	0
+internal\chromium_cache\Platform Notifications\CURRENT	16
+internal\chromium_cache\Platform Notifications\LOCK	0
+internal\chromium_cache\Platform Notifications\LOG	302
+internal\chromium_cache\Platform Notifications\LOG.old	261
+internal\chromium_cache\Platform Notifications\MANIFEST-000001	41
+internal\chromium_cache\Service Worker\CacheStorage	DIR
+internal\chromium_cache\Service Worker\Database	DIR
+internal\chromium_cache\Service Worker\ScriptCache	DIR
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88	DIR
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb	DIR
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\index.txt	95
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\index-dir	DIR
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\0a41c5226f4ea45c_0	248101
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\264c59e1edfb7870_0	344885
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\286cd88deca35130_0	1902828
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\286cd88deca35130_1	3702617
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\2b018b49ede7e6f8_0	5459
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\2b018b49ede7e6f8_1	7438
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\2e1d14d9d7670bcf_0	122888
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\2e1d14d9d7670bcf_1	277467
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\32fc3823becb4cc9_0	4822
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\3cd8720861a758b1_0	8275013
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\3cd8720861a758b1_1	13374618
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\52b043a3ab37bece_0	28008
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\52b043a3ab37bece_1	48230
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\5a27bd0fa4f406b0_0	51930
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\5a27bd0fa4f406b0_1	98308
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\5fc46f6fcc52317e_0	40998
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\5fc46f6fcc52317e_1	85954
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\64639af237c04a5d_0	2249
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\66836fc7195a6428_0	1958
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\89000a2888795eb5_0	6077
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\9070b00a1af0a92b_0	237750
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\9070b00a1af0a92b_1	514726
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\93718b43cab72077_0	10998
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\93718b43cab72077_1	21422
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\9ba6c01c32051023_0	7965
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\9ba6c01c32051023_1	14518
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\b0780d354692b1aa_0	3293
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\b0780d354692b1aa_1	3074
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\b0cf75ca84aa7dca_0	6769
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\b0cf75ca84aa7dca_1	11486
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\be22986d60755734_0	6211
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\be22986d60755734_1	11887
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\befd0bffc3fbddb6_0	88671
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\befd0bffc3fbddb6_1	186324
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\df27f0c6220f7ed7_0	75919
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\df27f0c6220f7ed7_1	143076
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\f478499b4e7b0b67_0	66614
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\f478499b4e7b0b67_1	124373
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\fd19ff735cf977b3_0	15149
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\fd19ff735cf977b3_1	28138
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\index	24
+internal\chromium_cache\Service Worker\CacheStorage\379f1cbab5b08b6fc9e08681e42d8be311441c88\cb4631ee-9e4f-4ae8-a815-c5cd74a4e2fb\index-dir\the-real-index	600
+internal\chromium_cache\Service Worker\Database\000003.log	2891
+internal\chromium_cache\Service Worker\Database\CURRENT	16
+internal\chromium_cache\Service Worker\Database\LOCK	0
+internal\chromium_cache\Service Worker\Database\LOG	304
+internal\chromium_cache\Service Worker\Database\LOG.old	304
+internal\chromium_cache\Service Worker\Database\MANIFEST-000001	41
+internal\chromium_cache\Service Worker\ScriptCache\index-dir	DIR
+internal\chromium_cache\Service Worker\ScriptCache\4cb013792b196a35_0	13504
+internal\chromium_cache\Service Worker\ScriptCache\4cb013792b196a35_1	6401
+internal\chromium_cache\Service Worker\ScriptCache\f1cdccba37924bda_0	118284
+internal\chromium_cache\Service Worker\ScriptCache\f1cdccba37924bda_1	299345
+internal\chromium_cache\Service Worker\ScriptCache\index	24
+internal\chromium_cache\Service Worker\ScriptCache\index-dir\the-real-index	96
+internal\chromium_cache\Session Storage\000003.log	17318
+internal\chromium_cache\Session Storage\CURRENT	16
+internal\chromium_cache\Session Storage\LOCK	0
+internal\chromium_cache\Session Storage\LOG	288
+internal\chromium_cache\Session Storage\LOG.old	245
+internal\chromium_cache\Session Storage\MANIFEST-000001	41
+internal\chromium_cache\shared_proto_db\metadata	DIR
+internal\chromium_cache\shared_proto_db\000003.log	182
+internal\chromium_cache\shared_proto_db\CURRENT	16
+internal\chromium_cache\shared_proto_db\LOCK	0
+internal\chromium_cache\shared_proto_db\LOG	247
+internal\chromium_cache\shared_proto_db\MANIFEST-000001	41
+internal\chromium_cache\shared_proto_db\metadata\000003.log	126
+internal\chromium_cache\shared_proto_db\metadata\CURRENT	16
+internal\chromium_cache\shared_proto_db\metadata\LOCK	0
+internal\chromium_cache\shared_proto_db\metadata\LOG	265
+internal\chromium_cache\shared_proto_db\metadata\MANIFEST-000001	41
+internal\chromium_cache\VideoDecodeStats\LOCK	0
+internal\chromium_cache\VideoDecodeStats\LOG	0
+internal\dlls\dlls.txt	0
+internal\lutfile\generated	DIR
+internal\options\options.bin	4636
+internal\proxies\videofile	DIR
+internal\proxies\videofile\sample	DIR
+internal\proxies\videofile\test patterns	DIR
+internal\proxies\videofile\sample\ada_proxy16.mov	1428
+internal\proxies\videofile\sample\ada_proxy2.mov	41252
+internal\proxies\videofile\sample\ada_proxy4.mov	11241
+internal\proxies\videofile\sample\ada_proxy8.mov	3397
+internal\proxies\videofile\sample\george_proxy16.mov	948
+internal\proxies\videofile\sample\george_proxy2.mov	14220
+internal\proxies\videofile\sample\george_proxy4.mov	4100
+internal\proxies\videofile\sample\george_proxy8.mov	1621
+internal\proxies\videofile\test patterns\d3_bpc_16-9_proxy16.mov	8603
+internal\proxies\videofile\test patterns\d3_bpc_16-9_proxy2.mov	172730
+internal\proxies\videofile\test patterns\d3_bpc_16-9_proxy4.mov	55062
+internal\proxies\videofile\test patterns\d3_bpc_16-9_proxy8.mov	18997
+internal\proxies\videofile\test patterns\d3_color_16-9_proxy16.mov	2341
+internal\proxies\videofile\test patterns\d3_color_16-9_proxy2.mov	45077
+internal\proxies\videofile\test patterns\d3_color_16-9_proxy4.mov	11776
+internal\proxies\videofile\test patterns\d3_color_16-9_proxy8.mov	4688
+internal\proxies\videofile\test patterns\d3_color_4-3_proxy16.mov	1697
+internal\proxies\videofile\test patterns\d3_color_4-3_proxy2.mov	17148
+internal\proxies\videofile\test patterns\d3_color_4-3_proxy4.mov	6243
+internal\proxies\videofile\test patterns\d3_color_4-3_proxy8.mov	3196
+internal\proxies\videofile\test patterns\d3_test_16-9_proxy16.mov	4387
+internal\proxies\videofile\test patterns\d3_test_16-9_proxy2.mov	65082
+internal\proxies\videofile\test patterns\d3_test_16-9_proxy4.mov	25153
+internal\proxies\videofile\test patterns\d3_test_16-9_proxy8.mov	10524
+internal\proxies\videofile\test patterns\d3_test_4-3_proxy16.mov	2340
+internal\proxies\videofile\test patterns\d3_test_4-3_proxy2.mov	31249
+internal\proxies\videofile\test patterns\d3_test_4-3_proxy4.mov	13204
+internal\proxies\videofile\test patterns\d3_test_4-3_proxy8.mov	5312
+internal\shadercache\0343431dfd2af68a_00008020.d3shader	32552
+internal\shadercache\03adb899afc68faf_00008020.d3shader	3128
+internal\shadercache\0566d6f35e68e97c_00008020.d3shader	26809
+internal\shadercache\059060446a7a3e99_00008020.d3shader	29119
+internal\shadercache\0d832873a0ee228a_00008020.d3shader	32896
+internal\shadercache\1755bfef353a1c85_00008020.d3shader	28579
+internal\shadercache\1771172a27d6fa69_00008020.d3shader	4768
+internal\shadercache\18f0902e1f5d7b36_00008020.d3shader	28843
+internal\shadercache\198e54d207dd94d5_00008020.d3shader	3567
+internal\shadercache\1d1de263cb01371f_00008020.d3shader	6020
+internal\shadercache\20b9991362162861_00008020.d3shader	6692
+internal\shadercache\22879d5118e22d0b_00008020.d3shader	6347
+internal\shadercache\28fcac3af0e7458d_00008020.d3shader	32740
+internal\shadercache\2b61bb3ed26db922_00008020.d3shader	5375
+internal\shadercache\2ef37eca20f7d5fc_00008020.d3shader	29147
+internal\shadercache\34af9741ef14200c_00008020.d3shader	5405
+internal\shadercache\3666554635819f8c_00008020.d3shader	5590
+internal\shadercache\36dc208b335a8352_00008020.d3shader	3561
+internal\shadercache\3a9869b1b78e526f_00008020.d3shader	28871
+internal\shadercache\4386aea6a6463b4f_00008020.d3shader	32280
+internal\shadercache\44fbab4aadebe1da_00008020.d3shader	8223
+internal\shadercache\45b85c4a0f8ee735_00008020.d3shader	52536
+internal\shadercache\46fa849a217a9fd6_00008020.d3shader	6805
+internal\shadercache\4704b40a1fcc7f66_00008020.d3shader	5079
+internal\shadercache\482476fbcb548f4c_00008020.d3shader	2750
+internal\shadercache\4c3d135272c8e44b_00008020.d3shader	27204
+internal\shadercache\4e9833be0ab34c0a_00008020.d3shader	28783
+internal\shadercache\533b6f21c63fa4eb_00008020.d3shader	6765
+internal\shadercache\53c48c594f965974_00008020.d3shader	7029
+internal\shadercache\5778eeb0774ae434_00008020.d3shader	28855
+internal\shadercache\64053f135b49a933_00008020.d3shader	32944
+internal\shadercache\64b9c974edd73774_00008020.d3shader	28607
+internal\shadercache\64f1f67e0d48beb9_00008000.d3shader	35067
+internal\shadercache\65b4f0607a4b79e0_00008020.d3shader	33644
+internal\shadercache\67631ef722fc2744_00008020.d3shader	32816
+internal\shadercache\6994a31fa59c5d20_00008020.d3shader	6696
+internal\shadercache\6fb19ef1e6416019_00008020.d3shader	33092
+internal\shadercache\6ff0d16e115ad2ec_00008020.d3shader	32996
+internal\shadercache\70a0c251ed8a263d_00008020.d3shader	68854
+internal\shadercache\71b3ea8df40f8b34_00008020.d3shader	5498
+internal\shadercache\75e36c032633521c_00008020.d3shader	7812
+internal\shadercache\77eca5ba3a065d68_00008020.d3shader	32016
+internal\shadercache\7cf68acbd2a0a43e_00008020.d3shader	32680
+internal\shadercache\7e459c423ccd9be7_00008020.d3shader	4331
+internal\shadercache\83235cfd9254b65a_00008020.d3shader	28843
+internal\shadercache\88d9c4cec329f50c_00008020.d3shader	5887
+internal\shadercache\8932d8a6d3815db2_00008020.d3shader	32680
+internal\shadercache\94c50fbd1f71aaa0_00008020.d3shader	32576
+internal\shadercache\97005c6e52ba0920_00008020.d3shader	5590
+internal\shadercache\97ad91568eaa0bc1_00008020.d3shader	32016
+internal\shadercache\9d965020c4463b4f_00008020.d3shader	52048
+internal\shadercache\a82d6ad340c27b80_00008020.d3shader	3515
+internal\shadercache\a871cc212873bc15_00008020.d3shader	17926
+internal\shadercache\a8b3d6d301872fa0_00008020.d3shader	28567
+internal\shadercache\b0774db22ee9f4d7_00008020.d3shader	16550
+internal\shadercache\b2854a295463d108_00008020.d3shader	3358
+internal\shadercache\b81bca1b0ccae0f6_00008020.d3shader	16911
+internal\shadercache\b90eea71e3138bf4_00008020.d3shader	4026
+internal\shadercache\bbcc5c59a23cc0e9_00008020.d3shader	32720
+internal\shadercache\bc1b9e43c1e8ff01_00008020.d3shader	4431
+internal\shadercache\bf29969848612f51_00008020.d3shader	29531
+internal\shadercache\c2ea1975e7140b0c_00008020.d3shader	7265
+internal\shadercache\c8a98ef9441c4cc3_00008020.d3shader	26809
+internal\shadercache\cacfe36bb5ee1fde_00008020.d3shader	51520
+internal\shadercache\d03555552283ebde_00008020.d3shader	33135
+internal\shadercache\d5e5b735618b067b_00008020.d3shader	4947
+internal\shadercache\db618a49d6d0c714_00008000.d3shader	34027
+internal\shadercache\dba03e957de53ad1_00008020.d3shader	28579
+internal\shadercache\dc2bdb9fb1f763c7_00008020.d3shader	4331
+internal\shadercache\e10cb3586df9aef3_00008020.d3shader	8675
+internal\shadercache\e642ca0347fc647d_00008020.d3shader	4387
+internal\shadercache\ecba03be408ce61f_00008020.d3shader	17117
+internal\shadercache\edef5b768d1aaa27_00008020.d3shader	68830
+internal\shadercache\ef858099e1325c33_00008020.d3shader	33220
+internal\shadercache\f2138c9c79a60452_00008020.d3shader	51520
+internal\shadercache\f61da3d5ea0c1ff4_00008020.d3shader	5956
+internal\shadercache\f7d0a0ee3df9f49a_00008020.d3shader	4193
+internal\shadercache\fc16ac745a83ca7f_00008020.d3shader	11307
+internal\shadercache\fdee53dcbe4075a6_00008020.d3shader	3628
+internal\thumbnails\dxtexture	DIR
+internal\thumbnails\d{3a}	DIR
+internal\thumbnails\mesh	DIR
+internal\thumbnails\videofile	DIR
+internal\thumbnails\webbookmark	DIR
+internal\thumbnails\__	DIR
+internal\thumbnails\dxtexture\palettes	DIR
+internal\thumbnails\dxtexture\pixel masks	DIR
+internal\thumbnails\dxtexture\sample	DIR
+internal\thumbnails\dxtexture\palettes\hsvpalette.png.PNG	4831
+internal\thumbnails\dxtexture\palettes\rgbpalette.png.PNG	387
+internal\thumbnails\dxtexture\pixel masks\circlemask glow opaque.png.PNG	1312
+internal\thumbnails\dxtexture\pixel masks\circlemask opaque.png.PNG	859
+internal\thumbnails\dxtexture\pixel masks\circlemask transparent.png.PNG	1215
+internal\thumbnails\dxtexture\pixel masks\squaremask glow opaque.png.PNG	799
+internal\thumbnails\dxtexture\pixel masks\squaremask opaque.png.PNG	195
+internal\thumbnails\dxtexture\pixel masks\squaremask transparent.png.PNG	263
+internal\thumbnails\dxtexture\pixel masks\stealth big pixel.png.PNG	167
+internal\thumbnails\dxtexture\pixel masks\stealth medium pixel.png.PNG	164
+internal\thumbnails\dxtexture\pixel masks\stealth small pixel.png.PNG	159
+internal\thumbnails\dxtexture\sample\ada.jpg.PNG	18362
+internal\thumbnails\dxtexture\sample\d3_macbeth_16-9.exr.PNG	2003
+internal\thumbnails\dxtexture\sample\george.jpg.PNG	26107
+internal\thumbnails\d{3a}\d3{20}projects	DIR
+internal\thumbnails\d{3a}\d3{20}projects\common	DIR
+internal\thumbnails\d{3a}\d3{20}projects\common\internal	DIR
+internal\thumbnails\d{3a}\d3{20}projects\common\internal\dxtexture	DIR
+internal\thumbnails\d{3a}\d3{20}projects\common\internal\dxtexture\d3logo.png.PNG	2088
+internal\thumbnails\d{3a}\d3{20}projects\common\internal\dxtexture\videoin.png.PNG	2128
+internal\thumbnails\mesh\rectangle.apx.PNG	551
+internal\thumbnails\videofile\link1	DIR
+internal\thumbnails\videofile\sample	DIR
+internal\thumbnails\videofile\test patterns	DIR
+internal\thumbnails\videofile\d3_macbeth_16-9.exr.PNG	2003
+internal\thumbnails\videofile\pandora.mov.PNG	313
+internal\thumbnails\videofile\link1\capture.jpg.PNG	6201
+internal\thumbnails\videofile\link1\hap_alpha_hd.mov.PNG	21055
+internal\thumbnails\videofile\sample\ada.jpg.PNG	18362
+internal\thumbnails\videofile\sample\d3_macbeth_16-9.exr.PNG	2003
+internal\thumbnails\videofile\sample\george.jpg.PNG	26107
+internal\thumbnails\videofile\test patterns\d3_bpc_16-9.d.PNG	1269
+internal\thumbnails\videofile\test patterns\d3_color_16-9.png.PNG	1876
+internal\thumbnails\videofile\test patterns\d3_color_4-3.png.PNG	1994
+internal\thumbnails\videofile\test patterns\d3_test_16-9.png.PNG	6126
+internal\thumbnails\videofile\test patterns\d3_test_4-3.png.PNG	6856
+internal\thumbnails\webbookmark\slide heading.apx.PNG	17721
+internal\thumbnails\__\common	DIR
+internal\thumbnails\__\common\internal	DIR
+internal\thumbnails\__\common\internal\dxtexture	DIR
+internal\thumbnails\__\common\internal\dxtexture\d3logotransparent.png.PNG	2499
+internal\thumbnails\__\common\internal\dxtexture\floorgrad.bmp.PNG	9684
+internal\thumbnails\__\common\internal\dxtexture\floorgrid.bmp.PNG	503
+internal\thumbnails\__\common\internal\dxtexture\person1.png.PNG	4994
+objects\AudioFile	DIR
+objects\DxTexture	DIR
+objects\LutFile	DIR
+objects\Mesh	DIR
+objects\NotchFile	DIR
+objects\RecordingFile	DIR
+objects\sdpfile	DIR
+objects\table	DIR
+objects\textfont	DIR
+objects\VideoFile	DIR
+objects\Web	DIR
+objects\AudioFile\Test audio - Copy.mp3	1202676
+objects\AudioFile\Test audio.mp3	1202676
+objects\DxTexture\palettes	DIR
+objects\DxTexture\pixel masks	DIR
+objects\DxTexture\sample	DIR
+objects\DxTexture\palettes\hsvpalette.png	1115885
+objects\DxTexture\palettes\rgbpalette.png	889
+objects\DxTexture\pixel masks\circlemask glow opaque.png	1083
+objects\DxTexture\pixel masks\circlemask opaque.png	438
+objects\DxTexture\pixel masks\circlemask transparent.png	638
+objects\DxTexture\pixel masks\squaremask glow opaque.png	737
+objects\DxTexture\pixel masks\squaremask opaque.png	144
+objects\DxTexture\pixel masks\squaremask transparent.png	147
+objects\DxTexture\pixel masks\stealth big pixel.png	115
+objects\DxTexture\pixel masks\stealth medium pixel.png	112
+objects\DxTexture\pixel masks\stealth small pixel.png	113
+objects\DxTexture\sample\ada.jpg	154741
+objects\DxTexture\sample\d3_macbeth_16-9.exr	790577
+objects\DxTexture\sample\george.jpg	101869
+objects\LutFile\Sample LUTs	DIR
+objects\LutFile\Sample LUTs\Contrast_High.CUBE	884971
+objects\LutFile\Sample LUTs\Contrast_Low.CUBE	884970
+objects\LutFile\Sample LUTs\Exposure +1.CUBE	884969
+objects\LutFile\Sample LUTs\Exposure -1.CUBE	884969
+objects\LutFile\Sample LUTs\Filter_Blue Boost.CUBE	884970
+objects\LutFile\Sample LUTs\Filter_Day To Night.CUBE	884970
+objects\LutFile\Sample LUTs\Filter_Heatmap.CUBE	884978
+objects\LutFile\Sample LUTs\Filter_Hue Shift 180.CUBE	884971
+objects\LutFile\Sample LUTs\Filter_Invert.CUBE	884964
+objects\LutFile\Sample LUTs\Filter_Pen and ink.CUBE	884969
+objects\LutFile\Sample LUTs\Filter_Solarise Greyscale.CUBE	884976
+objects\LutFile\Sample LUTs\Filter_Solarise.CUBE	884973
+objects\LutFile\Sample LUTs\Saturation_Boost.CUBE	884974
+objects\LutFile\Sample LUTs\Saturation_Desaturate.CUBE	884968
+objects\LutFile\Sample LUTs\Saturation_Greyscale.CUBE	884967
+objects\LutFile\Sample LUTs\Temperature_Cooler.CUBE	884967
+objects\LutFile\Sample LUTs\Temperature_Warmer.CUBE	884972
+objects\Mesh\arena.obj	1274417
+objects\Mesh\cylinder.obj	4985
+objects\Mesh\dome.obj	801862
+objects\Mesh\drummer.obj	109810
+objects\Mesh\guitarist.obj	13021
+objects\Mesh\man.obj	106806
+objects\Mesh\singer.obj	38487
+objects\Mesh\theatre.obj	71263
+objects\Mesh\woman.obj	122422
+objects\NotchFile\disguise_looks_main.dfxdll	69666742
+objects\NotchFile\This is For LÜca.dfxdll	71340309
+objects\table\tadawul_lookup_table_v2.txt	0
+objects\table\tadawul_lookup_table_v3.txt	0
+objects\VideoFile\link1	DIR
+objects\VideoFile\sample	DIR
+objects\VideoFile\test patterns	DIR
+objects\VideoFile\d3_macbeth_16-9.exr	790577
+objects\VideoFile\Pandora.mov	8402024567
+objects\VideoFile\videoin_1.mov	3084
+objects\VideoFile\sample\ada.jpg	154741
+objects\VideoFile\sample\george.jpg	101869
+objects\VideoFile\test patterns\D3_bpc_16-9.d	33177620
+objects\VideoFile\test patterns\D3_color_16-9.png	228929
+objects\VideoFile\test patterns\D3_color_4-3.png	76397
+objects\VideoFile\test patterns\D3_test_16-9.png	259154
+objects\VideoFile\test patterns\D3_test_4-3.png	143497
+objects\Web\Sample Pages	DIR
+objects\Web\Sample Pages\slide heading.html	814
+output\start_DmxPatch_DmxPatch.d3export	112
