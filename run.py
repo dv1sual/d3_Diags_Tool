@@ -81,12 +81,17 @@ def clean_mov(mov_list):
 
 def splitter(clean_list):
     """Split and list the folder paths in different list"""
-    #* make a dictionary with folder path as keys
+    #* make a dictionary with folder path as keys (var 0) and (var 1) as filename
     folders_path = {}
-    # go through all the lines in clean_list
+    #* go through all the lines in clean_list
     for line in clean_list:
-        folders_path[line[0]]
-
+        #* split lines in folder paths
+        var = os.path.split(line)
+        #* create two variables for key and filenames
+        var[0], var[1]
+        #* look for keys in the paths
+        if var[0] in folders_path:
+            folders_path[var[0]]
 
 # APPLICATION
 
@@ -106,8 +111,8 @@ mov_list = get_mov_from_videofiles(videofile_list)
 
 #* clean the file from the rubbish
 clean_list = clean_mov(mov_list)
-
-print(folders_path)
+splitter(clean_list)
+#print(os.path.split)
 exit()
 
 #* create the lists of the folders/subfolders/files
