@@ -1,6 +1,7 @@
 import os
+from re import X
 import tkinter as tk
-from tkinter import filedialog
+from tkinter import Y, filedialog
 
 # import pathlib
 # import subprocess
@@ -80,13 +81,15 @@ def clean_mov(mov_list):
     return clean_list
 
 def splitter(clean_list):
-    # make a list for every piece of the path
+    """Split and list the folder paths in different list"""
+    #* make a list for every piece of the path
     count = {}
     x = []
     y = []
     z = []
     new_x_list = []
     new_z_list = []
+    new_y_list = []
     # go through all the lines in clean_list
     for line in clean_list:
         # remove videoin file from the list
@@ -96,20 +99,27 @@ def splitter(clean_list):
             # add to the x list the main folder
             x.append(line.split('\\')[0] + '\n')
             # add to the y list the second
-            # y.append(line.split('\\')[1] + '\n')
+            #y.append(line.split('\\')[1] + '\n')
             # add to the z list the third or last
-            z.append(line.split('\\')[-1])
+            z.append(line.split('\\')[-1] + '\n')
         # this will clean all the duplicates in the x list
         for a in x:
             if a not in new_x_list:
                 new_x_list.append(a)
+        # this will clean all the duplicates in the y list
+        for b in y:
+            if b not in new_y_list:
+                new_y_list.append(b)
         # this will clean all the duplicates in the z list
-        for b in z:
-            if b not in new_z_list:
-                new_z_list.append(b)
+        for c in z:
+            if c not in new_z_list:
+                new_z_list.append(c)
 
     # return the lists
     return new_x_list
+    return new_y_list
+    return new_z_list
+    
 
 # APPLICATION
 
@@ -132,12 +142,15 @@ clean_list = clean_mov(mov_list)
 
 #* create the lists of the folders/subfolders/files
 new_x_list = splitter(clean_list)
+new_z_list = splitter(clean_list)
+new_y_list = splitter(clean_list)
 z = splitter(clean_list)
 
-# TESTING OUT WITH PRINT
-
+#! TESTING OUT WITH PRINT
+print(clean_list)
 print(new_x_list)
-# print(z)
+print(new_z_list)
+print(z)
 
 quit()
 
