@@ -1,7 +1,7 @@
 import os
-from re import X
 import tkinter as tk
-from tkinter import Y, filedialog
+from tkinter import filedialog
+import file_list
 
 # import pathlib
 # import subprocess
@@ -9,7 +9,7 @@ from tkinter import Y, filedialog
 # from setuptools import extension
 # from typing import List, Any
 
-import file_list
+
 
 #* FUNCTIONS
 
@@ -20,15 +20,15 @@ import file_list
 def get_files_in_filelist(diag_path):
     """Read and print all the files name in the filelist.txt file"""
     #* make the path to filelist.txt in the path
-    filelist_path = os.path.join(diag_path, "filelist.txt") 
+    filelist_path = os.path.join(diag_path, "filelist.txt")
     #* check the file exists
-    if os.path.isfile(filelist_path): 
+    if os.path.isfile(filelist_path):
         #* open filelist.txt
         with open(filelist_path, 'rb') as file_in:
-            #* read all lines 
+            #* read all lines
             in_lines = file_in.readlines()
             #* return all the lines
-            return in_lines 
+            return in_lines
     else:
         print("not found")
         return []
@@ -40,25 +40,24 @@ def get_videofiles(all_files_list):
     #* go through all the files looking for video files
     for file in all_files_list:
         #* is this a video file?
-        if b'Object\\VideoFile' in file:
+        if b'objects\\VideoFile' in file:
             #* yes! add it to the list
             videofile_list.append(file)
     #* now we checked all files, return the list of found video files
     return videofile_list
 
-def get_mov_from_videofiles(all_files_list):
+def get_mov_from_videofiles(videofile_list):
     """Read and get mov files from the file list, putting them in a list"""
     #* make an empty list to hold the mov files i found
     mov_list = []
     #* go through all the files looking for mov files
-    for file in all_files_list:
+    for file in videofile_list:
         #* is this a mov file?
         if b'.mov' in file:
             #* yes! add it to the list
             mov_list.append(file)
     #* now we checked all files, return the list of found video files
     return mov_list
-
 
 def clean_mov(mov_list):
     """Cleans the mov files names from useless text and characters"""
@@ -71,7 +70,7 @@ def clean_mov(mov_list):
             #* decode from bytes to string using a variable called field
             field = file.decode()
             #* replace the objects\\videofile\\ from the line with an empty char
-            field = field.replace("objects\\VideoFile\\", "")
+            #field = field.replace("objects\\VideoFile\\", "")
             #* remove whatever is after the final \
             field = field.replace(field.split("\t")[-1], "")
             field = field.replace("\t", "")
@@ -82,44 +81,12 @@ def clean_mov(mov_list):
 
 def splitter(clean_list):
     """Split and list the folder paths in different list"""
-    #* make a list for every piece of the path
-    count = {}
-    x = []
-    y = []
-    z = []
-    new_x_list = []
-    new_z_list = []
-    new_y_list = []
+    #* make a dictionary with folder path as keys
+    folders_path = {}
     # go through all the lines in clean_list
     for line in clean_list:
-        # remove videoin file from the list
-        if 'videoin' not in line:
-            if line in count:
-                count[line]
-            # add to the x list the main folder
-            x.append(line.split('\\')[0] + '\n')
-            # add to the y list the second
-            #y.append(line.split('\\')[1] + '\n')
-            # add to the z list the third or last
-            z.append(line.split('\\')[-1] + '\n')
-        # this will clean all the duplicates in the x list
-        for a in x:
-            if a not in new_x_list:
-                new_x_list.append(a)
-        # this will clean all the duplicates in the y list
-        for b in y:
-            if b not in new_y_list:
-                new_y_list.append(b)
-        # this will clean all the duplicates in the z list
-        for c in z:
-            if c not in new_z_list:
-                new_z_list.append(c)
+        folders_path[line[0]]
 
-    # return the lists
-    return new_x_list
-    return new_y_list
-    return new_z_list
-    
 
 # APPLICATION
 
@@ -135,24 +102,19 @@ all_files_list = get_files_in_filelist(diag_path)
 videofile_list = get_videofiles(all_files_list)
 
 #* now get only the mov videofiles
-mov_list = get_mov_from_videofiles(all_files_list)
+mov_list = get_mov_from_videofiles(videofile_list)
 
 #* clean the file from the rubbish
 clean_list = clean_mov(mov_list)
 
+print(folders_path)
+exit()
+
 #* create the lists of the folders/subfolders/files
-new_x_list = splitter(clean_list)
-new_z_list = splitter(clean_list)
-new_y_list = splitter(clean_list)
-z = splitter(clean_list)
+
 
 #! TESTING OUT WITH PRINT
-print(clean_list)
-print(new_x_list)
-print(new_z_list)
-print(z)
 
-quit()
 
 # for debugging, we'll list all the files in the diag filelist.txt
 file_list.file_list()
