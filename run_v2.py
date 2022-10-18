@@ -31,9 +31,12 @@ def get_videofiles(all_files_list):
                 video_file_dict[sub_dir].append(file_name)  # update value
     return video_file_dict
 
-def create_videofiles(video_file_dict):
+def create_folders(video_file_dict):
     """Create folders structures and video files in the project"""
-    for 
+    dir_paths = diag_path, key, val
+    for key, val in videofile_list.items():
+        os.mkdir()
+        #if os.path.exists(key):
 
 #! APPLICATION
 
@@ -51,6 +54,9 @@ videofile_list = get_videofiles(all_files_list)
 for key, val in videofile_list.items():
     print(key)
     print(val)
+
+all_folders_path = create_folders(video_file_dict=all_files_list)
+
 exit()
 
 # # this will open up the project
