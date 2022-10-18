@@ -33,10 +33,13 @@ def get_videofiles(all_files_list):
 
 def create_folders(video_file_dict):
     """Create folders structures and video files in the project"""
-    dir_paths = diag_path, key, val
     for key, val in videofile_list.items():
-        os.mkdir()
-        #if os.path.exists(key):
+        path =  os.path.join()
+        file = val
+    if not os.path.exists(path):
+        os.mkdir(path)
+    #elif os.path.exists(path):
+        #os.mkdir(file)
 
 #! APPLICATION
 
@@ -51,12 +54,12 @@ all_files_list = get_files_in_filelist(diag_path)
 #* get only the video files in the file list
 videofile_list = get_videofiles(all_files_list)
 
-for key, val in videofile_list.items():
-    print(key)
-    print(val)
-
-all_folders_path = create_folders(video_file_dict=all_files_list)
-
+#* put some comment here
+video_file_dict = create_folders(all_files_list)
+print()
+#for key, val in videofile_list.items():
+    #print(key)
+    #print(val)
 exit()
 
 # # this will open up the project
