@@ -1,6 +1,8 @@
 import os
 import tkinter as tk
 from tkinter import filedialog
+from PIL import Image
+from random import randrange
 # import subprocess
 
 #! FUNCTIONS
@@ -33,13 +35,22 @@ def get_videofiles(all_files_list):
 
 def create_folders(video_file_dict):
     """Create folders structures and video files in the project"""
-    for key, val in videofile_list.items():
-        path =  os.path.join()
-        file = val
-    if not os.path.exists(path):
-        os.mkdir(path)
-    #elif os.path.exists(path):
-        #os.mkdir(file)
+    for key, val in video_file_dict.items():
+        path =  os.path.join(diag_path, key)
+        if not os.path.exists(path):
+            os.mkdir(path)
+        for file in val:
+            file_path = os.path.join(path, file)
+            if not os.path.isfile(file_path):
+                generate_images(file_path)
+
+def generate_images(image_path):
+    rand_color = (randrange(255), randrange(255), randrange(255))
+    width = 1920
+    height = 1080
+    img  = Image.new( mode = "RGB", size = (width, height), color = rand_color)
+    #img.show()
+    img.save(image_path)
 
 #! APPLICATION
 
@@ -54,12 +65,7 @@ all_files_list = get_files_in_filelist(diag_path)
 #* get only the video files in the file list
 videofile_list = get_videofiles(all_files_list)
 
-#* put some comment here
-video_file_dict = create_folders(all_files_list)
-print()
-#for key, val in videofile_list.items():
-    #print(key)
-    #print(val)
+create_folders(videofile_list)
 exit()
 
 # # this will open up the project
