@@ -1,8 +1,10 @@
 import os
 import tkinter as tk
+import ffmpeg
 from tkinter import filedialog
 from PIL import Image
 from random import randrange
+
 # import subprocess
 
 #! FUNCTIONS
@@ -51,6 +53,7 @@ def generate_images(image_path):
     img  = Image.new( mode = "RGB", size = (width, height), color = rand_color)
     #img.show()
     img.save(image_path)
+
 
 #! APPLICATION
 
