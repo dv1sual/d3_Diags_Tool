@@ -1,5 +1,5 @@
 import subprocess
-import file_list
+import Deprecated.file_list as file_list
 import video_file
 import mov
 import clean_pt_1
