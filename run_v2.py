@@ -44,15 +44,15 @@ def create_folders(video_file_dict):
         for file in val:
             file_path = os.path.join(path, file)
             if not os.path.isfile(file_path):
-                generate_images(file_path)
+                generate_images(file, path)
 
-def generate_images(image_path):
+def generate_images(path, file):
     rand_color = (randrange(255), randrange(255), randrange(255))
     width = 1920
     height = 1080
     img  = Image.new( mode = "RGB", size = (width, height), color = rand_color)
     #img.show()
-    img.save(image_path)
+    #img.save(path, file)
 
 
 #! APPLICATION
