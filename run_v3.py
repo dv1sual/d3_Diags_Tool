@@ -53,7 +53,7 @@ def create_folders(video_file_dict):
 
 
 def generate_video(video_path):
-    print(f"diag_path = {diag_path}")
+    # print(f"diag_path = {diag_path}") # only for debugging
     width = 1920
     height = 1080
     duration = 10  # duration of the video in seconds
