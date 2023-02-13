@@ -4,8 +4,7 @@ import ffmpeg
 from tkinter import filedialog
 from PIL import Image
 import math
-# from random import randrange
-# import subprocess
+# import subprocess # future implementations
 
 # FUNCTIONS
 
@@ -53,17 +52,20 @@ def create_folders(video_file_dict):
 
 
 def generate_video(video_path):
+    """Generate a Hap-encoded video file using raw RGB frames"""
     # print(f"diag_path = {diag_path}") # only for debugging
     width = 1920
     height = 1080
     duration = 10  # duration of the video in seconds
     fps = 30  # frames per second
     num_frames = duration * fps
+    # Set up the FFmpeg command to encode the video in Hap format
     out = (
         ffmpeg.input('pipe:', format='rawvideo', pix_fmt='rgb24', s=f"{width}x{height}", r=fps)
         .output(video_path, vcodec='hap', pix_fmt='rgba', preset='fast', format='mov')
     )
     process = out.run_async(pipe_stdin=True)
+    # Generate the frames and write them to the FFmpeg process
     for i in range(num_frames):
         t = i / fps  # time in seconds
         r = int(255 * math.sin(2 * math.pi * t / duration))  # red channel value
@@ -72,6 +74,7 @@ def generate_video(video_path):
         color = (r, g, b)
         img = Image.new(mode="RGB", size=(width, height), color=color)
         process.stdin.write(img.tobytes())
+    # Close the input pipe and wait for the FFmpeg process to complete
     process.stdin.close()
     process.wait()
 
