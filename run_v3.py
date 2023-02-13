@@ -1,10 +1,10 @@
 import os
 import tkinter as tk
-# import ffmpeg
+import ffmpeg
 from tkinter import filedialog
 from PIL import Image
-from random import randrange
-
+import math
+# from random import randrange
 # import subprocess
 
 # FUNCTIONS
@@ -47,18 +47,33 @@ def create_folders(video_file_dict):
             os.mkdir(path)
         for file in val:
             file_name, file_ext = os.path.splitext(file)
-            img_path = os.path.join(path, f"{file_name}.jpg")
-            if not os.path.isfile(img_path):
-                generate_images(img_path)
+            video_path = os.path.join(path, f"{file_name}.mov")
+            if not os.path.isfile(video_path):
+                generate_video(video_path)
 
 
-def generate_images(img_path):
-    rand_color = (randrange(255), randrange(255), randrange(255))
+def generate_video(video_path):
+    print(f"diag_path = {diag_path}")
     width = 1920
     height = 1080
-    img = Image.new(mode="RGB", size=(width, height), color=rand_color)
-    # img.show()
-    img.save(img_path)
+    duration = 10  # duration of the video in seconds
+    fps = 30  # frames per second
+    num_frames = duration * fps
+    out = (
+        ffmpeg.input('pipe:', format='rawvideo', pix_fmt='rgb24', s=f"{width}x{height}", r=fps)
+        .output(video_path, vcodec='hap', pix_fmt='rgba', preset='fast', format='mov')
+    )
+    process = out.run_async(pipe_stdin=True)
+    for i in range(num_frames):
+        t = i / fps  # time in seconds
+        r = int(255 * math.sin(2 * math.pi * t / duration))  # red channel value
+        g = int(255 * math.sin(4 * math.pi * t / duration))  # green channel value
+        b = int(255 * math.sin(6 * math.pi * t / duration))  # blue channel value
+        color = (r, g, b)
+        img = Image.new(mode="RGB", size=(width, height), color=color)
+        process.stdin.write(img.tobytes())
+    process.stdin.close()
+    process.wait()
 
 
 # APPLICATION
