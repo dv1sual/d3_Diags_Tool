@@ -1,0 +1,11 @@
+future~=0.18.3
+ffmpeg~=1.4
+ffmpeg-python~=0.2.0
+Pillow~=9.4.0
+numpy~=1.24.2
+opencv-python~=4.7.0.68
+pip~=23.0
+setuptools~=67.2.0
+wheel~=0.38.4
+
+
